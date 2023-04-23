@@ -175,7 +175,6 @@
         padding: 12px 24px;
     }
     .job-list {
-        justify-content: flex-start;
         gap: 72px 24px;
     }
     .job-card {
