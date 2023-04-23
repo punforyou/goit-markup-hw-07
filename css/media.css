@@ -1,0 +1,318 @@
+@media screen and (min-width: 428px) {
+    .container {
+        width: 398px;
+    }
+    .footer-input {
+        width: 398px;
+    }
+    .modal { 
+        width: 392px;
+    }
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-tablet.jpg');
+    }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-tablet-2x.jpg');
+    }
+    }
+    .mob-menu {
+        padding: 24px 24px 40px 40px; 
+    }
+    .mob-menu-item {
+        font-size: 36px;
+    }
+    .menu-soc-list {
+        gap: 56px;
+    }
+    .job-card {
+        width: 396px;
+    }
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 1157px) {
+    .header-container {
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 738px;
+    }
+    .header {
+        padding-bottom: 12px;
+    }
+    .header-menu-btn, .menu-icon, .mob-menu, .mob-menu-nav  {
+        display: none;
+    }
+    .header-nav {
+        display: flex;
+    }
+    .header-menu {
+        display: flex;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    .header-item {
+        margin-right: 40px;
+    }
+    .header-item:last-of-type {
+        margin-right: 0;
+    }
+    .header-contact {
+        margin-bottom: 6px;
+        
+    }
+    .header-contact:last-of-type {
+        margin-bottom: 0;
+    }
+    .contacts {
+        display: flex;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    }
+    .contacts-link {
+        color: var(--main-text-color);
+    }
+    .active {
+        position: relative; 
+    }
+    .active::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -21px;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #404BBF;
+    }
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero.jpg');
+        max-height: 436px;
+        padding: 112px 0 108px 0;
+    }
+    @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-2x.jpg');
+    }
+    }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+        padding-bottom: 40px;
+    }
+    .team {
+        padding-bottom: 104px;
+    }
+    .team-list {
+        gap: 64px 24px;
+    }
+    .customers-list {
+        gap: 72px 24px;
+    }
+    .customers-item {
+        width: 168px;
+    }
+    .footer-container {
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+    .footer-text {
+        width: 264px;
+    }
+    .footer-soc {
+        margin: 0 0 0 24px;
+    }
+    .soc-title {
+        text-align: left;
+    }
+    .footer-input {
+        width: 264px;
+    }
+    .footer-btn {
+        margin: 0 0 0 24px;
+    }
+    .footer-list {
+        justify-content: flex-start;
+    }
+    .footer-email {
+        max-width: 453px;
+    }
+    .qualities-item {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+    .qualities-list {
+        gap: 72px 24px;
+    }
+    .filter {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+    .filter-list {
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+    .filter-button {
+        padding: 12px 24px;
+    }
+    .job-list {
+        justify-content: flex-start;
+        gap: 72px 24px;
+    }
+    .job-card {
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .qualities > .container {
+        width: 768px;
+    }
+    .footer > .container {
+        padding: 0 108px;
+    }
+}
+
+
+@media screen and (min-width: 1158px) {
+    .container {
+        width:1158px;
+    }
+    .header {
+        padding-bottom: 28px;
+    }
+    .header-nav {
+        margin-left: 76px; 
+    }
+    .contacts {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-left: auto;
+    }
+    .contacts-list {
+        display: flex;
+        flex-direction: row;
+    }
+    .header-contact {
+        margin-right: 40px;
+        margin-bottom: 0;
+    }
+    .header-contact:last-of-type {
+        margin-right: 0;
+    }
+    .active::after {
+        bottom: -32px;
+    }
+    .hero {
+        padding: 188px 0;   
+    }
+    .hero-title {
+        padding-bottom: 48px;
+    }
+    .qualities {
+        padding: 120px 0;
+    }
+    .qualities-item {
+        flex-basis: calc((100% - 3 * 24px) / 4);
+    }
+    .qualities-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .qualities-text {
+        font-weight: 400;
+    }
+    .qualities-list {
+        gap: 24px;
+    }
+    .qualities-box-icon {
+        width: 264px;
+        height: 112px;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        background-color: #F4F4FD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .services {
+        display: block;
+        padding-bottom: 120px;
+    }
+    .services-list {
+        display: flex;
+       flex-direction: row; 
+    }
+    .services-item {
+        width: 360px;
+    }
+    .team {
+        padding: 120px 0;
+    }
+    .team-list {
+        gap: 24px;
+    }
+    .customers {
+        padding: 120px 0;
+    }
+    .customers-list {
+        gap: 24px;
+    }
+    .footer {
+        padding: 100px 0;
+    }
+    .footer-soc {
+        max-width: 208px;
+        margin: 0 0 0 120px;
+        padding: 0;
+    }
+    .footer-email {
+        margin: 0 0 0 80px;
+    }
+    .modal {
+        width: 408px;
+        min-height: 576px;
+    }
+    .modal-checkbox {
+        margin-top: 16px;
+    }
+    .filter {
+        padding-top: 96px;
+        padding-bottom: 120px;    
+    }
+    .filter-list {
+        margin-bottom: 72px; 
+    }
+    .job-card {
+        width: 360px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .team > .container {
+        width: 264px;
+    } 
+}
