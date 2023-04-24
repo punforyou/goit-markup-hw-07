@@ -40,6 +40,12 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .qualities-subtitle {
+       text-align: center;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     .container {
@@ -224,6 +230,7 @@
         bottom: -32px;
     }
     .hero {
+        max-height: 600px;
         padding: 188px 0;   
     }
     .hero-title {
